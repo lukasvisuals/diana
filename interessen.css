@@ -27,7 +27,7 @@ h1 {
 
 table.interessen {
   border-collapse: separate;
-  border-spacing: 25px;
+  border-spacing: 20px;
   transform: scale(1.2);
 }
 
@@ -35,8 +35,8 @@ table.interessen th, table.interessen td {
   background: #a894d1;
   border: 3px solid black;
   border-radius: 18px;
-  width: 175px;
-  height: 120px;
+  width: 150px;
+  height: 100px;
   box-shadow: 5px 5px 12px rgba(0,0,0,0.25);
   padding: 15px;
   font-size: 1.2rem;
