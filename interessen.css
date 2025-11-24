@@ -31,7 +31,7 @@ table.interessen {
   transform: scale(1.2);
 }
 
-table.interessen th, table.interessen td {
+table.interessen td {
   background: #a894d1;
   border: 3px solid black;
   border-radius: 18px;
@@ -43,9 +43,13 @@ table.interessen th, table.interessen td {
 }
 
 table.interessen th {
-  background: #ffffff;
-  font-weight: bold;
-  font-size: 1.3rem;
+    overflow: visible; 
+}
+
+table.interessen th img {
+    border-radius: 0; 
+    width: 100%;   
+    display: block;
 }
 
 .label {
