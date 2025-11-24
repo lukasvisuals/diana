@@ -58,6 +58,12 @@ table.interessen th {
   font-size: 1.3rem;
 }
 
+table.interessen th1 {
+  background: #ffffff;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
 .label {
   font-weight: bold;
   background: #c8b3e8 !important;
