@@ -76,3 +76,9 @@ button:hover {
   background-color: #b94fc2;
   color: white;
 }
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
