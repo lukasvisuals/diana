@@ -42,23 +42,7 @@ table.interessen th, table.interessen td {
   font-size: 1.2rem;
 }
 
-table.interessen th1 {
-  background: #a894d1;
-  border: 3px solid black;
-  width: 150px;
-  height: 10px;
-  box-shadow: 5px 5px 12px rgba(0,0,0,0.25);
-  padding: 10px;
-  font-size: 1.2rem;
-}
-
 table.interessen th {
-  background: #ffffff;
-  font-weight: bold;
-  font-size: 1.3rem;
-}
-
-table.interessen th1 {
   background: #ffffff;
   font-weight: bold;
   font-size: 1.3rem;
