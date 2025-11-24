@@ -1,0 +1,51 @@
+
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #1a1a1a;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-image: url("Bilder/flowers.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: #d1bdf8;
+}
+
+h1 {
+  text-decoration: underline;
+  margin-top: 30px;
+  font-size: 2.5rem;
+}
+
+.table-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+table.interessen {
+  border-collapse: separate;
+  border-spacing: 15px;
+}
+
+table.interessen th, table.interessen td {
+  background: #a894d1;
+  border: 3px solid black;
+  border-radius: 15px;
+  width: 150px;
+  height: 90px;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.25);
+  padding: 10px;
+}
+
+table.interessen th {
+  background: #ffffff;
+  font-weight: bold;
+}
+
+.label {
+  font-weight: bold;
+  background: #c8b3e8 !important;
+}
