@@ -82,6 +82,7 @@ button:hover {
     flex-direction: column-reverse;
     align-items: center;
   }
+}  
 
 a { color: rgb(125, 28, 255); }
 a:hover { color: rgb(125, 139, 255); }
