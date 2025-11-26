@@ -130,27 +130,7 @@ button:hover {
 
 }
 
-a:link {
-  color: rgb(125, 28, 255);
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:visited {
-  color: rgb(106, 90, 205);
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: rgb(88, 39, 144);
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-a:active {
-  color: rgb(125, 28, 255);
-  background-color: transparent;
-  text-decoration: underline;
-}
-
+a { color: rgb(125, 28, 255); }
+a:hover { color: rgb(125, 139, 255); }
+a:visited { color: rgb(88, 39, 144); }
+a:active { color: rgb(125, 28, 255); }
