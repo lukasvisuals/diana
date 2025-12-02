@@ -90,6 +90,7 @@ a:active { color: rgb(125, 28, 255); }
 
 table.interessen th video {
     border-radius: 0; 
-    width: 100%;   
+    width: 100%; 
+    height: auto;
     display: block;
 }
