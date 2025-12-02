@@ -87,3 +87,9 @@ a:hover { color: rgb(125, 139, 255); }
 a:visited { color: rgb(88, 39, 144); }
 a:active { color: rgb(125, 28, 255); }
 
+
+table.interessen th video {
+    border-radius: 0; 
+    width: 100%;   
+    display: block;
+}
