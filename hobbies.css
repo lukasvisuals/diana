@@ -53,9 +53,18 @@ white-space: normal;
 }
 
 
+table.interessen th {
+padding: 5px;
+vertical-align: bottom; /* Inhalt unten ausrichten */
+}
+
+
 table.interessen th img {
-width: 100%;
 display: block;
+width: auto;
+max-width: 100%;
+height: auto;
+margin-top: auto; /* sorgt für unterschiedliche Abstände oben */
 }
 
 
