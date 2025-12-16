@@ -34,21 +34,18 @@ transform: scale(1.1);
 }
 
 
-table.interessen td,
 table.interessen th {
-padding: 5px;
-vertical-align: bottom; /* Bild bleibt unten bündig */
+  padding: 5px;          /* Abstand Bild → Rand */
+  vertical-align: bottom;
 }
 
-
+/* Bild bestimmt Größe der Box */
 table.interessen th img {
-display: block;
-width: auto;
-max-width: 100%;
-height: auto;
-margin-top: auto; /* sorgt für unterschiedliche Abstände oben */
+  display: block;        /* kein extra Leerraum */
+  height: auto;
+  width: auto;
+  max-width: none;
 }
-
 
 table.interessen th video {
 width: 100%;
