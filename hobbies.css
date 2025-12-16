@@ -35,16 +35,17 @@ transform: scale(1.1);
 
 
 table.interessen th {
-  padding: 5px;          /* Abstand Bild → Rand */
+  padding: 5px;      
   vertical-align: bottom;
 }
 
-/* Bild bestimmt Größe der Box */
+
 table.interessen th img {
-  display: block;        /* kein extra Leerraum */
+  display: block;     
   height: auto;
   width: auto;
   max-width: none;
+  max-height: 180px;
 }
 
 table.interessen th video {
