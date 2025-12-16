@@ -34,19 +34,21 @@ transform: scale(1.1);
 }
 
 
+table.interessen td,
 table.interessen th {
-  padding: 5px;      
-  vertical-align: bottom;
+padding: 5px;
+vertical-align: bottom; /* Bild bleibt unten bündig */
 }
 
 
 table.interessen th img {
-  display: block;     
-  height: auto;
-  width: auto;
-  max-width: none;
-  max-height: 180px;
+display: block;
+width: auto;
+max-width: 100%;
+height: auto;
+margin-top: auto; /* sorgt für unterschiedliche Abstände oben */
 }
+
 
 table.interessen th video {
 width: 100%;
