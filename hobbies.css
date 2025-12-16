@@ -88,4 +88,10 @@ a { color: rgb(125, 28, 255); }
 a:hover { color: rgb(125, 139, 255); }
 a:visited { color: rgb(88, 39, 144); }
 a:active { color: rgb(125, 28, 255); }
+
+
+@media (max-width: 900px) {
+table.interessen {
+transform: scale(1);
+}
 }
