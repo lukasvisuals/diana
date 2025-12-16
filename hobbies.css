@@ -37,18 +37,15 @@ transform: scale(1.1);
 table.interessen td,
 table.interessen th {
 padding: 5px;
-vertical-align: bottom; /* Bild bleibt unten bündig */
+vertical-align: bottom;
 }
 
 
 table.interessen th img {
-display: block;
-width: auto;
-max-width: 100%;
-height: auto;
-margin-top: auto; /* sorgt für unterschiedliche Abstände oben */
+  display: block;
+  width: auto;
+  height: auto;
 }
-
 
 table.interessen th video {
 width: 100%;
