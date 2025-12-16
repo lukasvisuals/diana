@@ -43,6 +43,13 @@ box-shadow: 5px 5px 12px rgba(0,0,0,0.25);
 padding: 15px;
 font-size: 1.1rem;
 vertical-align: top;
+
+
+/* NEU: Breite begrenzen + Umbruch erzwingen */
+max-width: 260px;
+word-wrap: break-word;
+overflow-wrap: break-word;
+white-space: normal;
 }
 
 
@@ -94,10 +101,4 @@ a:active { color: rgb(125, 28, 255); }
 table.interessen {
 transform: scale(1);
 }
-}
-table.interessen th img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 12px;
 }
