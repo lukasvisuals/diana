@@ -13,14 +13,14 @@ body {
   overflow-x: hidden;
 }
 
-/* ---------- Überschrift ---------- */
+
 h1 {
   text-decoration: underline;
   margin-top: 30px;
   font-size: 2.5rem;
 }
 
-/* ---------- Layout ---------- */
+
 .container {
   display: flex;
   justify-content: center;
@@ -31,7 +31,7 @@ h1 {
   flex-wrap: wrap;
 }
 
-/* ---------- Bilderwand ---------- */
+
 .bilder-wand {
   display: flex;
   gap: 30px;
@@ -41,7 +41,7 @@ h1 {
   height: 650px;
 }
 
-/* Jede Spalte */
+
 .bilder-spalte {
   position: relative;
   width: 250px;
@@ -49,7 +49,7 @@ h1 {
   overflow: hidden;
 }
 
-/* Der innere Container */
+
 .bilder-spalte .inner {
   display: flex;
   flex-direction: column-reverse; /* unterstes Bild zuerst */
@@ -58,7 +58,7 @@ h1 {
   will-change: transform; /* flüssigeres Rendering */
 }
 
-/* Bilder */
+
 .bilder-spalte img {
   display: block;
   border: 3px solid black;
@@ -68,7 +68,7 @@ h1 {
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Endlos-Scroll-Animation */
+
 @keyframes scrollDown {
   0% {
     transform: translateY(0);
@@ -83,7 +83,7 @@ h1 {
   animation-iteration-count: infinite;
 }
 
-/* ---------- Textbox ---------- */
+
 .text-box {
   background-color: rgba(255, 255, 255, 0.6);
   border: 3px solid black;
@@ -96,7 +96,7 @@ h1 {
   text-align: left;
 }
 
-/* ---------- Button ---------- */
+
 button {
   background-color: transparent;
   border: 3px solid #b94fc2;
@@ -113,7 +113,7 @@ button:hover {
   color: white;
 }
 
-/* ---------- Responsive ---------- */
+
 @media (max-width: 900px) {
   .container {
     flex-direction: column-reverse;
@@ -134,3 +134,4 @@ a { color: rgb(125, 28, 255); }
 a:hover { color: rgb(125, 139, 255); }
 a:visited { color: rgb(88, 39, 144); }
 a:active { color: rgb(125, 28, 255); }
+
