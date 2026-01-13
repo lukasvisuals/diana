@@ -1,0 +1,74 @@
+body { 
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #1a1a1a;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-image: url("Bilder/flowers.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: #d1bdf8;
+}
+
+h1 {
+  text-decoration: underline;
+  margin-top: 40px;
+  font-size: 3rem;
+}
+
+.table-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+table.interessen {
+  border-collapse: separate;
+  border-spacing: 20px;
+  transform: scale(1.1);
+}
+
+table.interessen td,
+table.interessen th {
+  background: #a894d1;
+  border: 3px solid black;
+  border-radius: 18px;
+  box-shadow: 5px 5px 12px rgba(0,0,0,0.25);
+  padding: 20px;
+  font-size: 1.2rem;
+  vertical-align: middle;
+  max-width: 300px;
+}
+
+table.interessen th img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+button {
+  background-color: transparent;
+  border: 3px solid #b94fc2;
+  border-radius: 15px;
+  padding: 8px 20px;
+  font-size: 1rem;
+  margin: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #b94fc2;
+  color: white;
+}
+
+a { color: rgb(125, 28, 255); }
+a:hover { color: rgb(125, 139, 255); }
+a:visited { color: rgb(88, 39, 144); }
+
+@media (max-width: 900px) {
+  table.interessen {
+    transform: scale(1);
+  }
+}
